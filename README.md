@@ -12,7 +12,7 @@ The extension is designed to notify the user **only when a potentially suspiciou
 
 ### Phishing Warning
 
-![High-risk warning](images/high-risk.png)
+![High-risk warning](images/High-risk.png)
 
 ![Suspicious-risk warning](images/Suspicious-risk.png)
 
