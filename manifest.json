@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Phishing Finder",
+  "version": "1.0.0",
+  "description": "A browser extension that detects phishing websites and alerts users.",
+
+  "permissions": ["tabs", "storage"],
+
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+
+  "action": {
+    "default_title": "Phishing Finder",
+    "default_icon": {
+      "48": "/icon.svg"
+    }
+  },
+  "icons": {
+    "48": "/icon.svg"
+  }
+}
